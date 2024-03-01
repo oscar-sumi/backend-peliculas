@@ -1,0 +1,9 @@
+/* Autor: Oscar Aldo Sumi Zamorano
+Script de Creación de la Base de Datos */
+
+CREATE DATABASE peliculas_db
+    WITH 
+    OWNER = postgres
+    TEMPLATE = template0
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
